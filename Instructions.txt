@@ -1,0 +1,20 @@
+Versions de librairies recommandées : 
+
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.2.0
+scipy>=1.7.0
+openpyxl>=3.0.0
+gower>=0.1.2
+
+
+Si gower n'est pas installé, veuillez l'installer à l'aide de la commande pip install gower.
+Si vous rencontrez une erreur lors de l'exécution de toutes les cellules d'un coup du ficher analyse_exploratoire au bloc de code 14. CLUSTERING K-MEANS, relancez simplement la cellule une fois que toutes les autres ont été exécutées.
+
+Pour chacun des fichiers analyse_exploratoire.ipynb et machine_learning.ipynb, il est recommandé d'utiliser la fonctionnalité des notebook jupyter et d'exécuter toutes les cellules en même temps, puisque certaines cellules sont dépendantes des précédentes pour s'exécuter correctement.
+
+L'exécution des cellules du fichier analyse_exploratoire.ipynb va générer un dossier analyse_exploratoire contenant trois sous dossiers nommés "1_statistiques_descriptives", "2_analyse_variable_cible" et "3_methodes_non_supervisees" dans lesquels seront stockés tous les fichiers (tableurs comme images) générés au cours de l'exécution des différentes cellules du fichier.
+
+Les paramètres des modèles sont évidemment modifiables pour essayer d'obtenir d'autres résultats.
